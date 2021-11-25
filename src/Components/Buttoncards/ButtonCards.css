@@ -1,0 +1,14 @@
+.Button-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.Button {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 15px;
+    background-color:grey;
+}

@@ -1,0 +1,15 @@
+.column-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.5rem;  
+  }
+  
+  .column-img-solo {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .img-team {
+    width: 7rem;
+    height: 7rem;
+  }
