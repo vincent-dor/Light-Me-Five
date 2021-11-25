@@ -11,5 +11,9 @@
   
   .img-team1 {
     width: 7rem;
-    height: 7rem;
+    height: auto;
+  }
+
+  .section-team1 {
+    margin-bottom: 5rem;
   }
