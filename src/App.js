@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Header from "./Components/Header/Header.jsx"
+import Footer from "./Components/Footer/Footer.jsx"
+import HomePage from "./Components/Homepage/Homepage.jsx"
+import ArtistPage from "./Components/Artistpage/Artistpage.jsx"
+import WelcomePage from "./Components/Welcomepage/Welcomepage.jsx"
+import EventPage from "./Components/Eventpage/Eventpage.jsx"
+import UserProfilePage from "./Components/Userprofilepage/Userprofilepage.jsx"
+import GroupPage from "./Components/Grouppage/Grouppage.jsx"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <Router>
+     <Header />
+      <Routes>
+        <Route exac path="/" element={<HomePage />} />
+        <Route path="/artists" element={<ArtistPage />} />
+        <Route path="/welcome" element={<WelcomePage />} />
+        <Route path="/events" element={<EventPage />} />
+        <Route path="/groups" element={<GroupPage />} />
+        <Route path="/userprofiles" element={<UserProfilePage />} />
+      </Routes>
+      <Footer />
+   </Router>
   );
 }
 
