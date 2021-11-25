@@ -2,16 +2,13 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: dimgrey;
-  position: fixed;
-  width: 100%;
+  background-color: dimgrey; 
   bottom: 0;
   left: 0;
   right: 0;
-
 }
 
 .main-logo1 {
-  width: 5rem;
-  height: 5rem;
+  width: 7rem;
+  height: auto;
 }

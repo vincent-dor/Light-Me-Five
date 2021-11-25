@@ -1,10 +1,11 @@
 import ButtonCards from "../Buttoncards/Buttoncards.jsx"
+import UserProfileCards from "../Userprofilecards/Userprofilecards.jsx"
 
 const UserProfilePage = () => {
     return (
         <div>
             <ButtonCards />
-            <h1>coucou userprofiles</h1 >
+            <UserProfileCards />
         </div>
     )
 }
