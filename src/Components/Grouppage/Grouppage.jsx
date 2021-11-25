@@ -1,6 +1,11 @@
+import ButtonCards from "../Buttoncards/Buttoncards.jsx"
+
 const GroupPage = () => {
     return (
-        <div></div>
+        <div>
+            <ButtonCards />
+            <h1>coucou groups</h1 >
+        </div>
     )
 }
 

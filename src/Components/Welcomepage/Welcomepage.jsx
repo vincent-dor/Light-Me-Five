@@ -1,6 +1,10 @@
+import ButtonCards from "../Buttoncards/Buttoncards.jsx"
+
 const WelcomePage = () => {
     return (
-        <div></div>
+        <div>
+            <ButtonCards />
+        </div>
     )
 }
 

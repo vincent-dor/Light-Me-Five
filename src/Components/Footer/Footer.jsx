@@ -1,6 +1,17 @@
+import MainLogo from "../../Assets/Light.png"
+import "./Footer.css"
+
 const Footer = () => {
     return (
-        <div>FOOTER</div>
+        <footer className="footer">
+        <div>
+        
+            <img className="main-logo1" src={MainLogo} alt="logo-icon"></img>
+        </div>
+        <div className="Copyright">
+          <p>Copyright</p>
+        </div>
+      </footer>
     )
 }
 

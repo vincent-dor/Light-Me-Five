@@ -1,6 +1,10 @@
+import ArtistCards from "../Artistcards/Artistcards.jsx"
+
 const ArtistPage = () => {
     return (
-        <div></div>
+        <div>
+          <ArtistCards />  
+        </div>
     )
 }
 

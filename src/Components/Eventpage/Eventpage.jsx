@@ -1,6 +1,11 @@
+import ButtonCards from "../Buttoncards/Buttoncards.jsx"
+
 const EventPage = () => {
     return (
-        <div></div>
+        <div>
+            <ButtonCards />
+           <h1>coucou events</h1 >
+        </div>
     )
 }
 
