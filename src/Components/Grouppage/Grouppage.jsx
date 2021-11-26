@@ -1,10 +1,11 @@
 import ButtonCards from "../Buttoncards/Buttoncards.jsx"
+import GroupCards from "../Groupcards/Groupscards.jsx"
 
 const GroupPage = () => {
     return (
         <div>
             <ButtonCards />
-            <h1>coucou groups</h1 >
+            <GroupCards />
         </div>
     )
 }

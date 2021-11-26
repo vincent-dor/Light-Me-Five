@@ -9,7 +9,7 @@ const Footer = () => {
             <img className="main-logo1" src={MainLogo} alt="logo-icon"></img>
         </div>
         <div className="Copyright">
-          <p>Copyright</p>
+          <p className="Footer-text">Copyright</p>
         </div>
       </footer>
     )

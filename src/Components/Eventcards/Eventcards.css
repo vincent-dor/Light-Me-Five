@@ -1,0 +1,13 @@
+.Eventcards0 {
+width: 5rem;
+height: auto;
+}
+
+.Eventcards {
+display: flex;
+align-items: center;
+}
+
+.Eventcards1{
+    font-size: 1.2rem;
+}

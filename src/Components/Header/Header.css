@@ -1,10 +1,12 @@
 .navbar {
     display: flex;
     justify-content: center;
-    background-color:dimgrey;
+    background-color:black;
     top: 0;
     left: 0;
     width: 100%;
+    border-bottom: 2px solid #f752e0;
+
 }
 
 .main-logo {

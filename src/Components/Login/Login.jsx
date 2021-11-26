@@ -6,6 +6,7 @@ const Login = () => {
     <div className="login">
       <Link to="/genres">
         <p >Login</p>
+        
       </Link>
     </div>
   );

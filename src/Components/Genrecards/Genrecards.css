@@ -11,9 +11,12 @@
   }
   
   .img-team {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 80px;
+    width: 7rem;
+    height: auto;
+  }
+
+  .section-team {
+    margin-bottom: 5rem;
   }
 
   .GenreButton {
