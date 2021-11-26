@@ -27,10 +27,20 @@ const ArtistCards = () => {
 
       <div className="column-img1">
         <Link to="/welcome">
-          <img id="GenreFour" className="img-team1" src={MainLogo1} alt="test" />
+          <img
+            id="GenreFour"
+            className="img-team1"
+            src={MainLogo1}
+            alt="test"
+          />
         </Link>
         <Link to="/welcome">
-          <img id="GenreFive" className="img-team1" src={MainLogo1} alt="test" />
+          <img
+            id="GenreFive"
+            className="img-team1"
+            src={MainLogo1}
+            alt="test"
+          />
         </Link>
       </div>
     </div>

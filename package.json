@@ -8,9 +8,11 @@
     "@testing-library/user-event": "^12.8.3",
     "axios": "^0.24.0",
     "cors": "^2.8.5",
+    "eslint": "^7.32.0",
     "express": "^4.17.1",
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
+    "prettier": "^2.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^6.0.2",
@@ -21,7 +23,9 @@
     "start": "react-scripts start ",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
   },
   "eslintConfig": {
     "extends": [

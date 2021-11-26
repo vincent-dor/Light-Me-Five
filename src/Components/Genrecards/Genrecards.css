@@ -1,7 +1,9 @@
 .column-img {
     display: flex;
     justify-content: space-around;
-    margin-top: 1rem;  
+    margin-top: 2rem;
+
+
   }
   
   .column-img-solo {
@@ -9,10 +11,99 @@
     margin-top: 1rem;
     justify-content: center;
   }
+
+  .column-img-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+
+  .img2-hide{
+    display: none;
+  }
+
+  .column-img2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+  }
+
+  .column-img2-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+  }
+
+  @media screen and (min-width: 800px) {
+    .column-img2 {
+      margin:5rem 5rem 2rem 5rem;
+    }
+  }
+  
+  .column-img-solo2 {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+
+  .img3-hide{
+    display: none;
+  }
+
+  .column-img3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+
+  }
+
+  .column-img3-bottom{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+    margin-bottom:2rem;
+  }
+
+  .column-img-solo3 {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+  }
+
+  .SeeNext-hide{
+    display: none;
+  }
+
+  .SeeNext{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .ButtonNext{
+    background-color: #e9a2df;
+    padding:3px;
+  }
+
+  .ButtonNext:hover{
+    background-color: #c6f4ff;
+  }
+
   
   .img-team {
+    border-radius: 1rem;
     width: 7rem;
     height: auto;
+    border:#e9a2df 2.5px solid;
+  }
+
+  .img-team-clicked{
+    opacity:0.5;
+    border-radius: 1rem;
+    width: 7rem;
+    height: auto;
+    border:#e9a2df 2.5px solid;
   }
 
   .section-team {
@@ -20,6 +111,22 @@
   }
 
   .GenreButton {
-    background-color: darkgrey;
+    border-radius: 1.5rem;
+    background-color: #e9a2df;
     border: none;
+  }
+
+  .Valid-Genre{
+    display:flex;
+    justify-content:center;
+    margin-top:1rem;
+  }
+
+  .ButtonValidation{
+    background-color: #e9a2df;
+    padding:3px;
+  }
+  
+  .ButtonValidation:hover{
+    background-color: #c6f4ff;
   }

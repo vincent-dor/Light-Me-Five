@@ -1,12 +1,11 @@
 import { Link } from "react-router-dom";
-import "./Login.css"
+import "./Login.css";
 
 const Login = () => {
   return (
     <div className="login">
       <Link to="/genres">
-        <p >Login</p>
-        
+        <p>Login</p>
       </Link>
     </div>
   );
