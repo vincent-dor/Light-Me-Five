@@ -1,11 +1,12 @@
 .column-img {
     display: flex;
     justify-content: space-around;
-    margin-top: 1.5rem;  
+    margin-top: 1rem;  
   }
   
   .column-img-solo {
     display: flex;
+    margin-top: 1rem;
     justify-content: center;
   }
   
@@ -16,4 +17,9 @@
 
   .section-team {
     margin-bottom: 5rem;
+  }
+
+  .GenreButton {
+    background-color: darkgrey;
+    border: none;
   }
