@@ -7,7 +7,8 @@ const contactInfo = [
       firstname: 'Emmanuel',
       email: 'emmanuel@email.com',
       lastname: 'lueul',
-      description: 'blablabla'
+      description: 'blablabla',
+      link:"https://discord.com/invite/fVD2wmQwJ9"
     },
     {
       id: 2,
@@ -48,7 +49,8 @@ const UserProfileCards = () => {
             id={contact.id}
             firstname={contact.firstname}
             email={contact.email}
-            lastname={contact.lastname} />
+            lastname={contact.lastname}
+            link={contact.link}/>
        ))}
       </div> 
 )

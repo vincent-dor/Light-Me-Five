@@ -1,5 +1,6 @@
-import Image from "../../Assets/Light.png"
+import Image from "../../Assets/Light.png";
 import React from "react";
+import "./Userprofilecards.css"; 
 
 const UserProfile = (props) => {
     return (
@@ -8,8 +9,16 @@ const UserProfile = (props) => {
             <img src={Image} alt="" className="Userprofile0"/>
             <h2 className="Userprofile1">{props.firstname}</h2>
             <h3 className="Userprofile1">{props.lastname}</h3>
-            <button className="Button1">hola</button>
-        </div>
+           
+        <button
+clasName="buttonlinkdiscord"
+type="button"
+onClick={(e) => {
+    e.preventDefault();
+    window.location.href=`${props.link}`;
+}}
+> Rejoins {props.firstname} sur Discorp </button>
+</div>
         </div>
     )
 
