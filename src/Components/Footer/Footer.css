@@ -2,13 +2,18 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: dimgrey; 
+  background-color: black; 
   bottom: 0;
   left: 0;
   right: 0;
+  border-top: 2px solid #f752e0;
 }
 
 .main-logo1 {
   width: 7rem;
   height: auto;
+}
+
+.Footer-text {
+  color: #2dd5fd;
 }
