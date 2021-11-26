@@ -1,15 +1,22 @@
 .column-img {
     display: flex;
     justify-content: space-around;
-    margin-top: 1.5rem;  
+    margin-top: 1rem;  
   }
   
   .column-img-solo {
     display: flex;
+    margin-top: 1rem;
     justify-content: center;
   }
   
   .img-team {
-    width: 7rem;
-    height: 7rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 80px;
+  }
+
+  .GenreButton {
+    background-color: darkgrey;
+    border: none;
   }
