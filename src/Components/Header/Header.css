@@ -11,5 +11,11 @@
 
 .main-logo {
     width: 100vw;
-    height: 28vh;
+    height: 30vh;
 }
+@media screen and (min-width: 700px) {
+    .main-logo {
+      width: 40vw;
+      height: 40vh;
+    }
+  }
