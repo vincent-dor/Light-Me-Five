@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import GenreCards from "../Genrecards/Genrecards.jsx"
 import axios from "axios";
-
-
 import "./Genrepage.css"
 
 //const genreId = [197, 169, 116, 113, 165, 106, 466, 144, 129, 52, 98, 464, 153, 132, 152]

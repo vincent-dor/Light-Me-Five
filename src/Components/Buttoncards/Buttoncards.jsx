@@ -18,12 +18,6 @@ const ButtonCards = () => {
             <button className="Button">Profiles</button>{" "}
           </Link>
         </div>
-        <div>
-          <Link to="/groups">
-            {" "}
-            <button className="Button">Groups</button>{" "}
-          </Link>
-        </div>
       </div>
     </div>
   );
