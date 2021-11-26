@@ -1,11 +1,8 @@
-import Login from "../Login/Login.jsx"
-import "./Homepage.css"
+import Login from "../Login/Login.jsx";
+import "./Homepage.css";
 
 const HomePage = () => {
-    return (
- <Login />
-    )
-}
-
+  return <Login />;
+};
 
 export default HomePage;

@@ -1,13 +1,11 @@
-import ArtistCards from "../Artistcards/Artistcards.jsx"
+import ArtistCards from "../Artistcards/Artistcards.jsx";
 
 const ArtistPage = () => {
-  
-    return (
-        <div>
-          <ArtistCards />  
-        </div>
-    )
-}
-
+  return (
+    <div>
+      <ArtistCards />
+    </div>
+  );
+};
 
 export default ArtistPage;

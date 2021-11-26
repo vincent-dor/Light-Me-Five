@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 const ButtonCards = () => {
   return (
     <div>
-      <div className="Button-container1"><button className="Button1">Logout</button></div>
+      <div className="Button-container1">
+        <button className="Button1">Logout</button>
+      </div>
       <div className="Button-container">
         <div>
           <Link to="/events">
