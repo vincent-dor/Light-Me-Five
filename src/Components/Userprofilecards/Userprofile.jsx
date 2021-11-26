@@ -8,7 +8,7 @@ const UserProfile = (props) => {
             <img src={Image} alt="" className="Userprofile0"/>
             <h2 className="Userprofile1">{props.firstname}</h2>
             <h3 className="Userprofile1">{props.lastname}</h3>
-            <button>hola</button>
+            <button className="Button1">hola</button>
         </div>
         </div>
     )
