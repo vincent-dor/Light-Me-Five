@@ -1,5 +1,58 @@
-.login {
+/*.login {
     display: flex;
     justify-content: center;
     margin-bottom: 24rem;
 }
+*/
+
+.login {
+    display: flex;
+    margin: 7rem 0;
+    text-align: center;
+    flex-direction: column;
+    font-family: "Poppins", sans-serif;
+  }
+  
+.form-profil {
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    line-height: 3;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .form-profil input[type="text"],
+  .form-profil input[type="password"] {
+    width: 40%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 2rem;
+    background-color: #ebe6e6;
+    color: black;
+    border: none;
+    box-shadow: 5px 5px 4px #f752e0;
+  }
+  
+  .sign {
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    width: 6rem;
+    background: #ebe6e6;
+    color: black;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 5px 5px 4px #f752e0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .login input::placeholder {
+    color:black;
+  }
+
+  #p-yup {
+    color: tomato;
+  }
+  
+  #p-yup::before {
+    display: inline;
+    content: "⚠";
+  }
