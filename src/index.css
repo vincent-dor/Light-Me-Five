@@ -3,3 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#root > div > div:nth-child(2) > svg > path {
+    color: aqua;
+}

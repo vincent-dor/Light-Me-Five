@@ -1,6 +1,6 @@
 import React from "react";
 import "./ArrowUp.css";
-import upArrow from "../../Assets/arrowUp1.svg";
+
 
 function ArrowUp() {
   const handleUp = () => {
@@ -11,12 +11,13 @@ function ArrowUp() {
   };
   return (
     <div>
-      <img
+      <button
         onClick={handleUp}
         className="arrow-up"
-        src={upArrow}
         alt="arrow-up"
-      />
+      > <svg className='arrow' xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+      <path   fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-8.707l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l1.293 1.293a1 1 0 001.414-1.414z" clip-rule="evenodd" />
+    </svg></button>
     </div>
   );
 }
