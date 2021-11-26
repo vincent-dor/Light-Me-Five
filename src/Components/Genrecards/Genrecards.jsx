@@ -1,5 +1,20 @@
 import React, { useState } from "react";
 import "./Genrecards.css";
+import country from "../../Assets/country.jpg"
+import dance from "../../Assets/dance.jpg"
+import electro from "../../Assets/electro.jpg"
+import folk from "../../Assets/folk.jpg"
+import francais from "../../Assets/francais.jpg"
+import jazz from "../../Assets/jazz.jpg"
+import latino from "../../Assets/latino.jpg"
+import rap from "../../Assets/rap.jpg"
+import reggae from "../../Assets/reggae.png"
+import rnb from "../../Assets/rnb.jpg"
+import rock from "../../Assets/rock.jpg"
+import soul from "../../Assets/soul.jpg"
+import classique from "../../Assets/classique.jpg"
+import metal from "../../Assets/metal.jpg"
+
 // import { Link } from "react-router-dom";
 
 const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
@@ -38,7 +53,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           <img
             id="GenreOne"
             className={clicked1 ? "img-team-clicked" : "img-team"}
-            src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
+            src={latino}
             alt="test"
           />{" "}
           <p> Latino</p>
@@ -59,7 +74,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           <img
             id="GenreTwo"
             className={clicked2 ? "img-team-clicked" : "img-team"}
-            src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
+            src={soul}
             alt="test"
           />
           <p>Soul/Funk</p>
@@ -83,7 +98,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           <img
             id="GenreThree"
             className={clicked3 ? "img-team-clicked" : "img-team"}
-            src="https://e-cdns-images.dzcdn.net/images/misc/3d5e8aab99b95bfa7ac7e9e466e7781e/250x250-000000-80-0-0.jpg"
+            src={rap}
             alt="test"
           />
           <p>Rap/Hip Hop</p>
@@ -107,7 +122,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           <img
             id="GenreFour"
             className={clicked4 ? "img-team-clicked" : "img-team"}
-            src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
+            src={dance}
             alt="test"
           />
           <p>Dance</p>
@@ -128,7 +143,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           <img
             id="GenreFive"
             className={clicked5 ? "img-team-clicked" : "img-team"}
-            src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
+            src={rnb}
             alt="test"
           />
           <p>R&B</p>
@@ -155,7 +170,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreSix"
               className={clicked6 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
+              src={electro}
               alt="test"
             />{" "}
             <p> Electro</p>
@@ -176,7 +191,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreSeven"
               className={clicked7 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
+              src={folk}
               alt="test"
             />
             <p>Folk</p>
@@ -200,7 +215,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreHeight"
               className={clicked8 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/3d5e8aab99b95bfa7ac7e9e466e7781e/250x250-000000-80-0-0.jpg"
+              src={reggae}
               alt="test"
             />
             <p>Reggae</p>
@@ -224,7 +239,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreNine"
               className={clicked9 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
+              src={jazz}
               alt="test"
             />
             <p>Jazz</p>
@@ -245,10 +260,10 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreTen"
               className={clicked10 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
+              src={francais}
               alt="test"
             />
-            <p>Chanson française</p>
+            <p>Variete fr</p>
           </button>
         </div>
         {/* </Link> */}
@@ -271,7 +286,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreEleven"
               className={clicked11 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
+              src={classique}
               alt="test"
             />{" "}
             <p> Classique</p>
@@ -292,7 +307,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreTwelve"
               className={clicked12 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
+              src={metal}
               alt="test"
             />
             <p>Metal</p>
@@ -340,7 +355,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreFourtenn"
               className={clicked14 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
+              src={rock}
               alt="test"
             />
             <p>Pop Rock</p>
@@ -361,7 +376,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             <img
               id="GenreFifteen"
               className={clicked15 ? "img-team-clicked" : "img-team"}
-              src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
+              src={country}
               alt="test"
             />
             <p>Country</p>
