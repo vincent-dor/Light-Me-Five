@@ -130,3 +130,9 @@
   .ButtonValidation:hover{
     background-color: #c6f4ff;
   }
+
+  .two-styles{
+    display: flex;
+    justify-content: center;
+    color: #c6f4ff;
+  }

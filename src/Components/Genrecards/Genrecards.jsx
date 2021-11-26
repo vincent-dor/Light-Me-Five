@@ -1,8 +1,9 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import "./Genrecards.css";
 // import { Link } from "react-router-dom";
 
-const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
+const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic, id }) => {
   const [compteur, setCompteur] = useState(0);
   const [clicked1, setClicked1] = useState(false);
   const [clicked2, setClicked2] = useState(false);
@@ -22,6 +23,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
 
   return (
     <div className="section-team">
+      <h1 className='two-styles'>2 styles</h1>
       <div className="column-img">
         {/* <Link to="/artists"> */}
         <button
@@ -36,7 +38,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           }}
         >
           <img
-            id="GenreOne"
+            // id="GenreOne"
             className={clicked1 ? "img-team-clicked" : "img-team"}
             src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
             alt="test"
@@ -57,7 +59,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           }}
         >
           <img
-            id="GenreTwo"
+            // id="GenreTwo"
             className={clicked2 ? "img-team-clicked" : "img-team"}
             src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
             alt="test"
@@ -81,7 +83,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           }}
         >
           <img
-            id="GenreThree"
+            // id="GenreThree"
             className={clicked3 ? "img-team-clicked" : "img-team"}
             src="https://e-cdns-images.dzcdn.net/images/misc/3d5e8aab99b95bfa7ac7e9e466e7781e/250x250-000000-80-0-0.jpg"
             alt="test"
@@ -105,7 +107,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           }}
         >
           <img
-            id="GenreFour"
+            // id="GenreFour"
             className={clicked4 ? "img-team-clicked" : "img-team"}
             src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
             alt="test"
@@ -126,7 +128,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           }}
         >
           <img
-            id="GenreFive"
+            // id="GenreFive"
             className={clicked5 ? "img-team-clicked" : "img-team"}
             src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
             alt="test"
@@ -153,7 +155,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreSix"
+              // id="GenreSix"
               className={clicked6 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -174,7 +176,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreSeven"
+              // id="GenreSeven"
               className={clicked7 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -198,7 +200,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreHeight"
+              // id="GenreHeight"
               className={clicked8 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/3d5e8aab99b95bfa7ac7e9e466e7781e/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -222,7 +224,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreNine"
+              // id="GenreNine"
               className={clicked9 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -243,7 +245,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreTen"
+              // id="GenreTen"
               className={clicked10 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -269,7 +271,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreEleven"
+              // id="GenreEleven"
               className={clicked11 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/069c9888538799748960781f098b5f4b/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -290,7 +292,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreTwelve"
+              // id="GenreTwelve"
               className={clicked12 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/bd5fdfa1a23e02e2697818e09e008e69/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -314,7 +316,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreThirteen"
+              // id="GenreThirteen"
               className={clicked13 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/3d5e8aab99b95bfa7ac7e9e466e7781e/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -338,7 +340,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreFourtenn"
+              // id="GenreFourtenn"
               className={clicked14 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/b36ca681666d617edd0dcb5ab389a6ac/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -359,7 +361,7 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
             }}
           >
             <img
-              id="GenreFifteen"
+              // id="GenreFifteen"
               className={clicked15 ? "img-team-clicked" : "img-team"}
               src="https://e-cdns-images.dzcdn.net/images/misc/91468ecc5dfdd19c42a43d2cbdf27059/250x250-000000-80-0-0.jpg"
               alt="test"
@@ -379,11 +381,14 @@ const GenreCards = ({ compteurGenre, setCompteurGenre, setIdMusic }) => {
           Plus de genre
         </button>
       </div>
-
+      
+      
       <div className="Valid-Genre">
-        <button type="button" className="ButtonValidation">
+        <Link to={`/userprofiles/${id}`} >
+        <button  type="button" className="ButtonValidation">
           Validate
         </button>
+        </Link>  
       </div>
     </div>
   );
